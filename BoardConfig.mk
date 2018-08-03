@@ -7,7 +7,7 @@ TARGET_CPU_SMP := false
 TARGET_CPU_VARIANT :=cortex-a9
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/TOLINO/SHINE_HD2/kernel
+TARGET_PREBUILT_KERNEL := device/TOLINO/SHINE_2HD/kernel
 BOARD_KERNEL_CMDLINE := console=ttymxc0,115200 init=/init androidboot.console=ttymxc0 video=mxcepdcfb:E060SCM,bpp=16 video=mxc_elcdif_fb:off no_console_suspend
 BOARD_KERNEL_BASE := 0x80800000
 BOARD_KERNEL_PAGESIZE := 2048
@@ -29,7 +29,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_FSTAB := device/TOLINO/SHINE_HD2/recovery/root/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/TOLINO/SHINE_2HD/recovery/root/etc/recovery.fstab
 
 # Screen
 TW_DEFAULT_BRIGHTNESS := 50

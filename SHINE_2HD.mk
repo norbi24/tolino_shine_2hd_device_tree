@@ -1,4 +1,4 @@
-LOCAL_PATH := device/TOLINO/SHINE_HD2
+LOCAL_PATH := device/TOLINO/SHINE_2HD
 
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
 
@@ -14,4 +14,4 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := SHINE_HD2
+PRODUCT_NAME := SHINE_2HD
