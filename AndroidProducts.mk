@@ -1,0 +1,3 @@
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/SHINE_HD2.mk \
+    $(LOCAL_DIR)/omni_SHINE_HD2.mk
