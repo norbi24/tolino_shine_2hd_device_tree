@@ -1,4 +1,4 @@
-# Nook Glowlight Plus (BNRV510) device tree
+# Tolino Shine HD2 (E60QF0) device tree
 
 ### Build instructions
 see wiki.
@@ -7,14 +7,16 @@ see wiki.
 TWRP builds and is fully functional (hopefully).
 
 ### Installation
-1) copy twrp image into /sdcard/NOOK/twrp.img
-2) dd if=/sdcard/NOOK/twrp.img of=/dev/block/mmcblk0p2
+1) enter fastboot;
+2) in cmd do "fastboot flash recovery <path_to_recovery_image>"
 
 ### How to enter recovery
-1) turn of your NOOK;
-2) turn on/turn off (before android boots);
-3) repeat step 2) 4 times;
-4) turn on your NOOK;
+1) completely turn off device;
+2) press and hold glowlight button;
+3) turn device on (while still holding glowlight button);
 
-Explanation: on every launch NOOK increases failed boot counter, when counter reaches 5 NOOK will boot into recovery. 
-Every time Android boots it resets counter to 0.
+### How to enter fastboot
+1) completely turn off device;
+2) press and hold glowlight button;
+3) press and hold power button;
+3) wait while device turns on while holding both buttons;
