@@ -4,5 +4,6 @@
 /data        ext4   /dev/block/mmcblk0p7	flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;
 /cache       ext4   /dev/block/mmcblk0p6	flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;
 /misc        emmc   /dev/block/mmcblk0p9	flags=backup=1;
-/device      ext4   /dev/block/mmcblk0p8	flags=backup=1;
+#/device      ext4   /dev/block/mmcblk0p8	flags=backup=1;
 /share       ext4   /dev/block/mmcblk0p10	flags=backup=1;
+/sdcard1     ext4   /dev/block/mmcblk0p4	flags=storage;canbewiped;wipeingui;display="SD Card";

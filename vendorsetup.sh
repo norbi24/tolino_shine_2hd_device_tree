@@ -1,2 +1,2 @@
-add_lunch_combo omni_SHINE_HD2-userdebug
+add_lunch_combo omni_SHINE_2HD-userdebug
 
